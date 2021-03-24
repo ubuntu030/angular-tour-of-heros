@@ -9,7 +9,7 @@ import { HEROES } from '../mock-heros';
   styleUrls: ['./heros.component.scss']
 })
 export class HerosComponent implements OnInit {
-  heros = HEROES;
+  heroes = HEROES;
   selectedHero: Hero | undefined;
   
   constructor() { }
