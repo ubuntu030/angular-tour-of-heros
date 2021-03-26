@@ -1,9 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 import { HeroService } from "../hero.service";
-import { MessageService } from '../message.service';
 import { Hero } from '../hero';
-import { retryWhen } from 'rxjs/operators';
 
 @Component({
   selector: 'app-heros',
